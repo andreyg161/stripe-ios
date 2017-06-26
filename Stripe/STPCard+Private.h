@@ -7,10 +7,11 @@
 //
 
 #import "STPCard.h"
+#import "STPInternalAPIResponseDecodable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface STPCard ()
+@interface STPCard () <STPInternalAPIResponseDecodable>
 
 @property (nonatomic, readwrite) NSString *last4;
 @property (nonatomic, readwrite, nonnull, copy) NSDictionary *allResponseFields;
