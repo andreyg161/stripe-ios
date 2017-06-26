@@ -1018,7 +1018,7 @@
 		8B429AD71EF9D4A300F95F34 /* STPBankAccountParams+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STPBankAccountParams+Private.h"; sourceTree = "<group>"; };
 		8B429ADA1EF9E15900F95F34 /* STPBankAccount+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STPBankAccount+Private.h"; sourceTree = "<group>"; };
 		8B429ADD1EF9EFF600F95F34 /* STPFile+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STPFile+Private.h"; sourceTree = "<group>"; };
-		8B5B4B431EFDD925005CF475 /* STPSourceOwnerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPSourceOwnerTest.m; path = ../../Stripe/STPSourceOwnerTest.m; sourceTree = "<group>"; };
+		8B5B4B431EFDD925005CF475 /* STPSourceOwnerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPSourceOwnerTest.m; sourceTree = "<group>"; };
 		8B6DC9741F0171D20025E811 /* STPSourceReceiverTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPSourceReceiverTest.m; sourceTree = "<group>"; };
 		8B6DC9761F0172640025E811 /* STPSourceSEPADebitDetailsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPSourceSEPADebitDetailsTest.m; sourceTree = "<group>"; };
 		8B8DDBB21EF887A4004B141F /* STPBankAccountParamsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPBankAccountParamsTest.m; sourceTree = "<group>"; };
