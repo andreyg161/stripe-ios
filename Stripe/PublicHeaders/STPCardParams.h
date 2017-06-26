@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "STPFormEncodable.h"
 #if TARGET_OS_IPHONE
 #import "STPAddress.h"
@@ -14,7 +15,9 @@
 
 /**
  *  Representation of a user's credit card details. You can assemble these with information that your user enters and
- *  then create Stripe tokens with them using an STPAPIClient. @see https://stripe.com/docs/api#cards
+ *  then create Stripe tokens with them using an STPAPIClient.
+ *
+ *  @see https://stripe.com/docs/api#cards
  */
 @interface STPCardParams : NSObject<STPFormEncodable>
 
@@ -51,7 +54,7 @@
 /**
  *  The cardholder's address.
  */
-@property(nonatomic, copy, nonnull) STPAddress *address;
+@property (nonatomic, copy, nonnull) STPAddress *address;
 
 @property (nonatomic, copy, nullable) NSString *addressLine1;
 @property (nonatomic, copy, nullable) NSString *addressLine2;

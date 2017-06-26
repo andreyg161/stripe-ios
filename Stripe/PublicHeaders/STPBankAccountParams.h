@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "STPFormEncodable.h"
 
 typedef NS_ENUM(NSInteger, STPBankAccountHolderType) {
@@ -16,7 +17,9 @@ typedef NS_ENUM(NSInteger, STPBankAccountHolderType) {
 
 /**
  *  Representation of a user's bank account details. You can assemble these with information that your user enters and
- *  then create Stripe tokens with them using an STPAPIClient. @see https://stripe.com/docs/api#create_bank_account_token
+ *  then create Stripe tokens with them using an STPAPIClient.
+ *
+ *  @see https://stripe.com/docs/api#create_bank_account_token
  */
 @interface STPBankAccountParams : NSObject<STPFormEncodable>
 
@@ -48,11 +51,11 @@ typedef NS_ENUM(NSInteger, STPBankAccountHolderType) {
 /**
  *  The name of the person or business that owns the bank account.
  */
-@property(nonatomic, copy, nullable) NSString *accountHolderName;
+@property (nonatomic, copy, nullable) NSString *accountHolderName;
 
 /**
  *  The type of entity that holds the account. Defaults to STPBankAccountHolderTypeIndividual.
  */
-@property(nonatomic) STPBankAccountHolderType accountHolderType;
+@property (nonatomic) STPBankAccountHolderType accountHolderType;
 
 @end

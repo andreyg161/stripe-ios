@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -31,7 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
     cardParams.additionalAPIParameters = @{@"test_field": @"example_value"};
     [[STPAPIClient sharedClient] createTokenWithCard:cardParams completion:...];
  */
-@property(nonatomic, readwrite, copy)NSDictionary *additionalAPIParameters;
+@property (nonatomic, readwrite, copy) NSDictionary *additionalAPIParameters;
 
 @end
+
 NS_ASSUME_NONNULL_END
